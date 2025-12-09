@@ -45,4 +45,34 @@ Wynik działania:
 
 <img width="435" height="132" alt="image" src="https://github.com/user-attachments/assets/27aa535d-9aea-414a-8471-6f9ab153e6fd" />
 
+# 6. Testy: 
+
+## Z backendu do bazy
+<img width="729" height="47" alt="Zrzut ekranu 2025-12-9 o 9 06 39 AM" src="https://github.com/user-attachments/assets/e2267131-6bc6-4c15-904d-99589a8c3729" />
+
+Wynik: 
+
+```
+* Host mysql-svc:3306 was resolved.
+* IPv6: (none)
+* IPv4: 10.96.188.130
+*   Trying 10.96.188.130:3306...
+* Connected to mysql-svc (10.96.188.130) port 3306
+```
+
+## Z frontendu do bazy
+
+<img width="722" height="51" alt="image" src="https://github.com/user-attachments/assets/63d174ee-2e89-4811-b5e8-a0240588d8c9" />
+
+Wynik:
+
+```
+* Host mysql-svc:3306 was resolved.
+* IPv6: (none)
+* IPv4: 10.96.188.130
+*   Trying 10.96.188.130:3306...
+* Connection timed out after 5002 milliseconds
+* closing connection #0
+```
+
 
